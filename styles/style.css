@@ -65,7 +65,9 @@ main{
 }
 /* failur Section  & Success Section*/
 /* Sorry for use this background image on this section but But I like it, that's why I added this image */
-.bg_image{
+.failur{
+    width: 100%;
+    height: 690px;
     background-image: url(../images/06_comp_1.gif);
     background-size:cover ;
     background-repeat: no-repeat;
@@ -77,7 +79,6 @@ main{
 }
 .mystory_sec{
     width: 1070px;
-    
     margin: 130px  auto 0px;
     display: flex;
     gap: 87px;
