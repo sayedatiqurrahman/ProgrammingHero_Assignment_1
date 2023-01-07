@@ -1,0 +1,292 @@
+/* Universal css */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+.btn_primary{
+    background-color:#fff ;
+
+    color:#005FAC;
+    margin-top: 15px;
+}
+
+/* Sections */
+button{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0px 25px;
+    height: 60px;
+    border: 0;
+}
+.section_title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.section_des{
+    margin: 20px 0px;
+    color: #444343;
+}
+.sub_title{
+    font-family: 'Oleo Script', cursive;
+    font-size: 20px;
+}
+/* Header Section  (part of univarsal css)*/
+.header{
+    height: 780px;
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    background-position:bottom left;
+    text-align: right;
+    color: #fff;
+    position: relative;
+}
+.con_width{
+    width: 500px;
+    position: absolute;
+    top:230px;
+    right:200px;
+}
+.head_title{
+    font-size: 50px;
+}
+.head_des{
+    margin: 24px 0px;
+}
+
+/* Main Section */
+main{
+    width: 1140px;
+    margin: 0px auto;
+}
+/* failur Section  & Success Section*/
+/* Sorry for use this background image on this section but But I like it, that's why I added this image */
+.bg_image{
+    background-image: url(../images/06_comp_1.gif);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.success{
+    background-image: url(../images/06_comp_2.gif);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.mystory_sec{
+    width: 1070px;
+    
+    margin: 130px  auto 0px;
+    display: flex;
+    gap: 87px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.mystory_sec  ul li{
+    list-style: none;
+    margin-top: 5px;
+ color: #444343;;
+}
+.mystory_sec  ul li i{
+    color: #16D887;
+}
+
+/* My Skills >> skill section*/
+.skill_section{
+    margin-top: 270px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    
+}
+.skill{
+    margin-top: 50px;
+    height: 160px;
+    width: 300px;
+    background-color:  #EBF5F6;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.skill h2{
+    font-family: 'Oleo Script', cursive;
+}
+.skill:hover{
+    background-color: #FFF4D6;
+  }
+/* My plan >> plan section */
+.my_plan{
+     margin: 130px 0px;
+     text-align: center;
+}
+.my_plan > h1{
+    margin-bottom: 50px;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.plans h2{
+    margin: 16px auto;
+}
+.plans img{
+    transition: 1s;
+}
+.plans img:hover{
+    transform: rotate(380deg) ;
+    
+}
+/* call Banner Section >> part of bonus mark */
+.call_banner{
+    height: 300px;
+    width: 100%;
+    padding:30px;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    position: relative; 
+}
+.grad_overly{
+    /* background-image: url(../images/gradient1.png);
+    background-repeat: no-repeat; */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.call_banner_info{
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+
+/* My Pricing >> Pricing Section */
+.my_pricing{
+    margin-top: 130px;
+    text-align: center;
+   
+}
+.my_pricing > h1{
+     font-family: 'Oleo Script', cursive;
+}
+.allprice_cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: -15px; 
+}
+.price_card{
+    width:305px ;
+    height: 500px;
+    text-align: center;
+    background-color: #EBF0FC;
+    border: 2px solid #FEFFFF;
+    border-radius: 10px; 
+    transition: 1s;
+    /* This box shadow code collected from intenet >> But i cant understand <I requested to my dear sir Jhanker Mahbub to tech this shadow effect> */
+     box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+}
+.price_card hr{
+    width: 200px;
+    margin: 10px auto;
+    border-color: #16D887;
+}
+.price_card h3{
+    padding-top: 50px;
+    font-size:25px ;
+    font-weight: 500;
+}
+.price_card h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Oleo Script', cursive;
+}
+.spec_des{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.price_card ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.fa-xmark{
+    color: red;
+}
+.fa-check{
+    color: green;
+}
+
+.price_card:hover{
+    background-color: #FFF4D6;
+}
+
+/* all sections code is finished >> but footer is given below*/
+
+.footer{
+    margin-top: 130px;
+    width: 100%;
+    height: 577px;
+    background-color: #151414;;
+    color: #fff;
+}
+.footer_container{
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+.footer_part_1 , .footer_part_2{
+    width: 500px;
+    
+}
+.footer_part_1 h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.footer_part_1 p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.footer_part_2 input[type="email"]{
+    height: 50px;
+    width: 250px;
+    background-color:transparent ;
+    border:1px solid #fff ;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.btn_secondery{
+    margin-top: 10px;
+    background-color:  #005FAC;
+    color: #fff;
+   
+
+}
+.social_link{
+    margin-top:20px ;
+    display: flex;
+    gap: 18px;
+}
